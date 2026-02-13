@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENORA Logo Test</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1a3a2e 0%, #4a6355 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        img {
+            max-width: 300px;
+            margin: 20px;
+            border: 2px solid white;
+        }
+        .info {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>ENORA Logo Test Page</h1>
+    
+    <div class="info">
+        <h2>If you see the logo below, everything is working!</h2>
+        <p>Path used: ./images/logo.png</p>
+    </div>
+    
+    <img src="./images/logo.png" alt="ENORA Logo">
+    
+    <div class="info">
+        <h3>Troubleshooting:</h3>
+        <p>✓ Make sure the 'images' folder is in the same directory as this HTML file</p>
+        <p>✓ Make sure logo.png is inside the 'images' folder</p>
+        <p>✓ Check that you extracted the entire ZIP file, not just index.html</p>
+    </div>
+    
+    <div class="info">
+        <p><strong>Folder structure should be:</strong></p>
+        <pre style="text-align: left; background: rgba(0,0,0,0.3); padding: 10px; border-radius: 5px;">
+enora-prelaunch-v2/
+├── index.html (or logo-test.html)
+├── images/
+│   └── logo.png
+├── css/
+├── js/
+└── README.md
+        </pre>
+    </div>
+</body>
+</html>
